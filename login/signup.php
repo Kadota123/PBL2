@@ -7,7 +7,7 @@
 <html lang="ja">
     <meta charset="UTF-8">
     <head>
-    <link rel="stylesheet" type="text/css" href="<?=$profile_css?>">
+    <link rel="stylesheet" type="text/css" href="<?=$article_css?>">
 </head>
 
 <main>
