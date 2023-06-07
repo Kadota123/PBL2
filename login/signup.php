@@ -2,6 +2,7 @@
 <?php
 // へっだー
 // require_once __DIR__ . '/../header.php';
+require_once __DIR__ . '/../pre.php';
 ?>
 <!-- <!DOCTYPE html>
 <html lang="ja">
@@ -26,8 +27,8 @@
     }
 
     ?>
-        <link rel="stylesheet" type="text/css" href="<?=$article_css?>">
-    <div class="signup-form">
+        <link rel="stylesheet" href="<?=$article_css?>">
+    <div class=h3>
         <form method="POST" action="./signup_db.php" enctype="multipart/form-data">
             <h3>アイコン変更</h3>
             <div>
