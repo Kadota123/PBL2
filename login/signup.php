@@ -3,12 +3,12 @@
 // へっだー
 // require_once __DIR__ . '/../header.php';
 ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
     <meta charset="UTF-8">
     <head>
     <link rel="stylesheet" type="text/css" href="<?=$article_css?>">
-</head>
+</head> -->
 
 <main>
     <?php
@@ -26,6 +26,7 @@
     }
 
     ?>
+        <link rel="stylesheet" type="text/css" href="<?=$article_css?>">
     <div class="signup-form">
         <form method="POST" action="./signup_db.php" enctype="multipart/form-data">
             <h3>アイコン変更</h3>
