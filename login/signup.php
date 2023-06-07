@@ -3,6 +3,13 @@
 // へっだー
 // require_once __DIR__ . '/../header.php';
 ?>
+<!DOCTYPE html>
+<html lang="ja">
+    <meta charset="UTF-8">
+    <head>
+    <link rel="stylesheet" type="text/css" href="<?=$profile_css?>">
+</head>
+
 <main>
     <?php
     $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '';
