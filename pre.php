@@ -33,3 +33,5 @@ $mypage_php = $http_host . '/' . $id . '/user/mypage.php';
 $post_php = $http_host . '/' . $id . '/article/post.php';
 $article_css = $http_host.'/' . $id . '/css/article.css';
 $login_css = $http_host.'/' . $id . '/css/login.css';
+
+//ジャーマン・てるみ
