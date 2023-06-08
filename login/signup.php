@@ -4,12 +4,6 @@
 // require_once __DIR__ . '/../header.php';
 require_once __DIR__ . '/../pre.php';
 ?>
-<!-- <!DOCTYPE html>
-<html lang="ja">
-    <meta charset="UTF-8">
-    <head>
-    <link rel="stylesheet" type="text/css" href="<?=$article_css?>">
-</head> -->
 
 <main>
     <?php
@@ -27,16 +21,16 @@ require_once __DIR__ . '/../pre.php';
     }
 
     ?>
-        <link rel="stylesheet" href="<?=$article_css?>">
-    <div class=h3>
+    <link rel="stylesheet" href="<?=$login_css?>">
+    <div class=signup>
         <form method="POST" action="./signup_db.php" enctype="multipart/form-data">
             <h3>アイコン変更</h3>
-            <div>
+            <!-- <div> -->
                 <dl class="inline">
                 <dd>アイコン：<input type="file" name="icon" accept="image/*"></dd>
-                </dl>
+                <!-- </dl> -->
                 <br>
-            </div>
+            <!-- </div> -->
             <table>
                 <form method="POST" action="./signup_db.php">
                 <tr>
