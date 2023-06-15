@@ -1,5 +1,6 @@
 <!-- 変移先リンク -->
 <?php
+//kobukobu
 if (!isset($_SESSION)) {
   session_start();
 }
