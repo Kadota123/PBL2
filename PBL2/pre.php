@@ -27,11 +27,15 @@ $http_host = '//' . $_SERVER['SERVER_NAME'];
 $id = "pbl2"; #フォルダ名に変更する
 
 $toppage_php = $http_host . '/' . $id . '/top/toppage.php';
+$login_php = $http_host . '/' . $id . '/login/login.php';
 $logout_php = $http_host . '/' . $id . '/login/logout.php';
 $signup_php = $http_host . '/' . $id . '/login/signup.php';
 $mypage_php = $http_host . '/' . $id . '/user/mypage.php';
 $post_php = $http_host . '/' . $id . '/article/post.php';
-$article_css = $http_host.'/' . $id . '/css/article.css';
-$login_css = $http_host.'/' . $id . '/css/login.css';
+$user_php = $http_host . '/' . $id . '/classes/user.php';
 
-//ジャーマン・てるみ
+
+
+
+
+$post_css = $http_host . '/' . $id . '/css/post.css';

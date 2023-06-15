@@ -33,9 +33,9 @@ require_once __DIR__ . '/../pre.php';
 
 
 
-        <body>
-   <div class="form-wrapper">
-     <h1>ログイン</h1>
+    <body>
+      <div class="form-wrapper">
+        <h1>ログイン</h1>
      <form method="post" action="./login_db.php">
        <div class="form-item">
          <label for="name"></label>
